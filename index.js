@@ -102,8 +102,6 @@ app.use((err, req, res, next) => {
     res.status(status).send(message)
 })
 
-
-
 app.listen(port, () => {
     console.log(`server running at port ${port}`)
 })
